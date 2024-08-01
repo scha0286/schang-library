@@ -115,6 +115,7 @@
         <p v-else class="message">Click the button to see a message.</p>
       </section>
   
+    
       <section class="lab-section">
         <h2>Attribute, Class and Style Binding with <code>v-bind</code></h2>
         <p>Highlighting Specific Authors:</p>
@@ -160,7 +161,7 @@
     return authors.find(author => author.id === 1);
 });
 
-  // Activity 9
+  // Activity 9: Find Jane Austen's famousWorks
   const austenFamousWorks = computed(() => {
     const austen = authors.find(author => author.name === "Jane Austen");
     if (austen) {

@@ -211,12 +211,6 @@
     color: #42b883;
     border: 1px solid #42b883;
   }
-
-  .successed {
-    background-color: #e7faf3;
-    color: #42b883;
-    border: 1px solid #42b883;
-  }
   
   .highlight {
     background-color: #42b883;
